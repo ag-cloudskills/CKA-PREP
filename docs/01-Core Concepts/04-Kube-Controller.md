@@ -12,4 +12,4 @@ $ kubectl get pods -n kube-system
 $ cat /etc/kubernetes/manifest/kube-controller-manager.yaml
 
 # non kubeadm setup
-$ cat /etc/systemd/system/kube-controller-manager.service
+$ cat /etc/systemd/system/kube-controller.service

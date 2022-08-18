@@ -1,7 +1,7 @@
 # Imperative vs Declarative
 
-1. Imperative - Step wise instructions ( kubectl run, create, edit, expose commands)
-2. Declarative - kubectl apply commands
+- Imperative - Step wise instructions ( kubectl run, create, edit, expose commands)
+- Declarative - kubectl apply commands
 
 ~~~bash
 

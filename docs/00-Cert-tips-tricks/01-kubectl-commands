@@ -1,6 +1,0 @@
-# kubectl commands
-
-~~~bash
-# to find all the nodes
-kubectl get nodes
-kubectl descibe nodes node01

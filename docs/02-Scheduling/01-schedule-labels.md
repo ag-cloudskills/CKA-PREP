@@ -1,6 +1,11 @@
 # Manual Scheduling
 
- It can be done by mentioning the parameter nodeName in yaml file
+- role of schedule to select the node for the pod
+- If the nodeName field is not present in manifest file , then the pod is candidate for scheduling
+- It can be done by mentioning the parameter nodeName in yaml file
+- nodeName filed can't be changed for running node
+- node for the pod can be changed by using pod-bind definition and then convert the binding in Json. Once the conversion is done, 
+  api requests need to be fired.
 
 # Labels,Selector and Annotations
 
